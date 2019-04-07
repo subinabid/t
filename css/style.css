@@ -1,0 +1,67 @@
+/* Full screen page */
+html{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+/* Slide show - Main container */
+.slide-show-container{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.slide-images{
+  display: none; /* Hide by default*/
+}
+
+.slide-images img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92VH;
+}
+
+/* Caption text */
+.slide-text {
+  color: #f2f2f2;
+  font-size: 2.5em;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 90%;
+  text-align: center;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+.footer{
+  display: block;
+  width: 100%;
+  height: 4VH;
+  font-size: 1.25em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding-top: 12px;
+  padding-bottom: 2px;
+  background-color: #e06377;
+  color:#fff;
+}
+
+.footer a{color: #fff;}
+.footer a:hover{color: #343434}
+
+.footer-text{
+  float: left;
+  width: 50%;
+}
+
+.text-right{ text-align: right;}
