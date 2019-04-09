@@ -83,10 +83,3 @@ body{
 
 .footer a{color: #fff;}
 .footer a:hover{color: #343434}
-
-.footer-text{
-  float: left;
-  width: 50%;
-}
-
-.text-right{ text-align: right;}
